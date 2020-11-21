@@ -2,6 +2,7 @@ import { StyledLogoWrapper } from './Video.style';
 export const VideoCard = ({ video }) => {
   return (
     <StyledLogoWrapper>
+
       <iframe
         src="https://www.youtube.com/embed/yvGE7Cz9VDA"
         width="320"

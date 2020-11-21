@@ -50,7 +50,8 @@ export const StyledImageWrapper = styled.div`
   align-self: center;
 `;
 export const StyledSectionWrapper = styled.div`
-  width: 45vw;
+  @media only screen and (min-width : 900px) {width: 45vw;}
+  width: 95vw;
   height : 70vh ;
   margin: 10px;
   background-color: #000000;
@@ -68,8 +69,9 @@ export const StyledSectionWrapper = styled.div`
 `;
 
 export const StyledDetailCardWrapper = styled.div`
-  width: 70%;
-  height: 70%;
+  @media only screen and (min-width : 900px) {width: 70%;}
+
+  width: 95vw;
   display: flex;
   justify-content : center;
   border: 1px solid black;
