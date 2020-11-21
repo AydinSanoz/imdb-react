@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RJ-Imdb/static/css/main.5d0ebab2.chunk.css",
+    "main.js": "/RJ-Imdb/static/js/main.4a02f028.chunk.js",
+    "main.js.map": "/RJ-Imdb/static/js/main.4a02f028.chunk.js.map",
+    "runtime-main.js": "/RJ-Imdb/static/js/runtime-main.b6eeb1b8.js",
+    "runtime-main.js.map": "/RJ-Imdb/static/js/runtime-main.b6eeb1b8.js.map",
+    "static/js/2.aef9e113.chunk.js": "/RJ-Imdb/static/js/2.aef9e113.chunk.js",
+    "static/js/2.aef9e113.chunk.js.map": "/RJ-Imdb/static/js/2.aef9e113.chunk.js.map",
+    "static/js/3.791ce577.chunk.js": "/RJ-Imdb/static/js/3.791ce577.chunk.js",
+    "static/js/3.791ce577.chunk.js.map": "/RJ-Imdb/static/js/3.791ce577.chunk.js.map",
+    "index.html": "/RJ-Imdb/index.html",
+    "static/css/main.5d0ebab2.chunk.css.map": "/RJ-Imdb/static/css/main.5d0ebab2.chunk.css.map",
+    "static/js/2.aef9e113.chunk.js.LICENSE.txt": "/RJ-Imdb/static/js/2.aef9e113.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6eeb1b8.js",
+    "static/js/2.aef9e113.chunk.js",
+    "static/css/main.5d0ebab2.chunk.css",
+    "static/js/main.4a02f028.chunk.js"
+  ]
+}
