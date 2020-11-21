@@ -1,7 +1,7 @@
 {
   "name": "imdb",
   "version": "0.1.0",
-  "homepage": "https://AydinSanoz.github.io/RJ-Imdb",
+  "homepage": "https://AydinSanoz.github.io/imdb-react",
   "dependencies": {
     "@cantonjs/react-scroll-view": "^0.4.2",
     "@testing-library/jest-dom": "^5.11.4",
