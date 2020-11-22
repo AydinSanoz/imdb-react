@@ -5,18 +5,18 @@ import {
 } from './Styles';
 
 import axios from 'axios';
-import {useEffect, useState} from 'react';
-import {useParams} from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import {
   StyledCardFav,
   StyledCardImage,
   StyledCardPoint,
   StyledCardTitle,
   StyledBottomWrapper,
- 
 } from '../components/Card/Card.style';
-import {StyledDetailCardWrapper ,  StyledImageWrapper, StyledLogoWrapper} from './Styles';
+import { StyledDetailCardWrapper, StyledImageWrapper } from './Styles';
 import { VideoList } from './Sections';
+
 
 const myApi = '64f9385d47c970d860ccd6c147841242';
 const movieDetailBaseUrl = 'https://api.themoviedb.org/3/movie/';
@@ -24,8 +24,7 @@ const baseImageUrl = 'https://image.tmdb.org/t/p/w500';
 
 export const Details = (props) => {
   const [movieDetails, setMovieDetails] = useState('');
-  const {id} = useParams();
-
+  const { id } = useParams();
 
   useEffect(() => {
     axios
@@ -39,15 +38,15 @@ export const Details = (props) => {
 
   return (
     <StyledMainContainer>
-     <VideoList/>
-     
+      <VideoList />
+
       <StyledSectionContainer>
         <StyledImageWrapper>
           <>
             <StyledDetailCardWrapper>
               <StyledCardImage
                 src={baseImageUrl + movieDetails.poster_path}
-                alt=""
+                alt=''
               />
               <StyledCardTitle>{movieDetails.title}</StyledCardTitle>
               <StyledBottomWrapper>
@@ -58,23 +57,13 @@ export const Details = (props) => {
           </>
         </StyledImageWrapper>
 
-        
         <StyledSectionWrapper>
-         
-            <h1>{movieDetails.title}</h1> <hr/> <hr/>
-            <p>{movieDetails.overview}</p>
-            <p>{movieDetails.overview}</p>
-            <p>{movieDetails.overview}</p>
-            <p>{movieDetails.overview}</p> <hr/> <hr/>
-            <p>{movieDetails.overview}</p>
-            <p>{movieDetails.overview}</p>
-            <p>{movieDetails.overview}</p> <hr/><hr/>
-            <a href={movieDetails.homepage}>HOMEPAGE</a>
-            
-            <p>{movieDetails.video && 'Trailer'}</p>
+          <h1>{movieDetails.title}</h1> <hr /> <hr />
+          <p>{movieDetails.overview}</p>
           
+          <a href={movieDetails.homepage}>HOMEPAGE</a>
+          <p>{movieDetails.video && 'Trailer'}</p>
         </StyledSectionWrapper>
-        
       </StyledSectionContainer>
     </StyledMainContainer>
   );

@@ -17,7 +17,7 @@ export const StyledLogoWrapper = styled.div`
   
   padding: 25px;
   width: 90%;
-  height : 16vh;
+  
   border-radius: 30px;
   background-image: url('https://picsum.photos/id/1067/600/400'),
     url('https://picsum.photos/id/250/600/400');
