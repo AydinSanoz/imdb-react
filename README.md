@@ -78,12 +78,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```json
   "name": "imdb",
   "version": "0.1.0",
-  "homepage": "https://AydinSanoz.github.io/imdb-react",  // Add this and change according to your reponame
+  "homepage": "https://AydinSanoz.github.io/imdb-react",  // Add this and change according to your reponame },
   "dependencies": {
     "@cantonjs/react-scroll-view": "^0.4.2",
-    .
-    .
-  },
+ 
 
 ```
 
