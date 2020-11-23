@@ -78,7 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ```json
   "name": "imdb",
   "version": "0.1.0",
-  "homepage": "https://AydinSanoz.github.io/imdb-react", //add this change according to your repo
+  "homepage": "https://AydinSanoz.github.io/imdb-react", // Add this change according to your repo
   "dependencies": {
     "@cantonjs/react-scroll-view": "^0.4.2",
 
