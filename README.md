@@ -70,3 +70,29 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### easy way to deploy react App 
+- - Add below to Json File 
+
+```json
+  "name": "imdb",
+  "version": "0.1.0",
+  "homepage": "https://AydinSanoz.github.io/imdb-react", //add this change according to your repo
+  "dependencies": {
+    "@cantonjs/react-scroll-view": "^0.4.2",
+
+```
+
+```json
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",  // Add this line
+    "deploy": "gh-pages -d build"  // Add this one too
+  },
+```
+- - Last Step 
+  yarn run deploy
