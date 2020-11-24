@@ -1,4 +1,5 @@
-[imdb.github.io](https://aydinsanoz.github.io/imdb-react/)
+##Link
+[imdb](https://aydinsanoz.github.io/imdb-react/)
 
 # Getting Started with Create React App
 
