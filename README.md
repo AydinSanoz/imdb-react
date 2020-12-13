@@ -1,5 +1,5 @@
 ## Link
-[imdb](https://aydinsanoz.github.io/imdb-react/)
+[imdb](https://imdb-demo1.herokuapp.com/Home)
 
 # Getting Started with Create React App
 
